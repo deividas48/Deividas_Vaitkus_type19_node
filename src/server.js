@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 
 const app = express(); // Initialize an Express application
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000; // Set the port number
 
 // Middleware
 app.use(express.json());

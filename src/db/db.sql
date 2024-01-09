@@ -45,3 +45,10 @@ CREATE TABLE `type19_node`.`user_roles` (
 PRIMARY KEY (`id`)
 ) ENGINE = InnoDB;
 -- /Tables from the database
+
+-- Insert data into the item_types table
+INSERT INTO `item_types` (`id`, `name`) VALUES 
+(NULL, 'food'), 
+(NULL, 'drink'), 
+(NULL, 'electronic'), 
+(NULL, 'clothes');

@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
     <link rel="stylesheet" href="register.css" />
+    <link rel="stylesheet" href="/css/global.css" />
 </head>
 
 <body>
     <nav>
         <section class="logo">
-            <h1>BSE - best shop ever</h1>
+            <h1>BSE - Best Shop Ever</h1>
         </section>
         <section class="sectionButtons">
             <a href="index.html">Home</a>
@@ -22,29 +23,30 @@
         </section>
     </nav>
     <!-- Form for registering to the website -->
-    <form id="register-form">
-        <h2>Register</h2>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
+    <main>
+        <form id="mainForm">
+            <h2>Register</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required />
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
 
-        <label for="repeatPassword">Repeat Password:</label>
-        <input type="password" id="repeatPassword" name="repeatPassword" required />
+            <label for="repeatPassword">Repeat Password:</label>
+            <input type="password" id="repeatPassword" name="repeatPassword" required />
 
-        <label for="role">Role:</label>
-        <select id="role" name="role">
-            <option value="user">User</option>
-            <option value="admin">Admin</option>
-        </select>
+            <label for="role">Role:</label>
+            <select id="role" name="role">
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
+            </select>
 
-        <button type="submit">Register</button>
-    </form>
-    <script src="register.js"></script>
+            <button type="submit">Register</button>
+        </form>
+    </main>
 </body>
 
 </html>

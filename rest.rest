@@ -1,0 +1,10 @@
+### GET all orders
+GET http://localhost:3000/api/orders
+
+### GET all shop items
+GET http://localhost:3000/api/shop_items
+
+### Get all user roles
+GET http://localhost:3000/api/user_roles
+
+

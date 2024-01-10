@@ -52,3 +52,9 @@ INSERT INTO `item_types` (`id`, `name`) VALUES
 (NULL, 'drink'), 
 (NULL, 'electronic'), 
 (NULL, 'clothes');
+
+-- Insert data into the user_roles table
+INSERT INTO `user_roles` (`id`, `name`) VALUES 
+(NULL, 'admin'), 
+(NULL, 'user'), 
+(NULL, 'guest');
